@@ -1,0 +1,27 @@
+### 
+GET http://localhost:3000/api/tasks
+
+### 
+GET http://localhost:3000/api/tasks/5
+
+###
+POST http://localhost:3000/api/tasks
+content-type: application/json
+
+{
+  "task" : "matar",
+  "complete" : 0
+}
+
+###
+PUT http://localhost:3000/api/tasks/9
+Content-Type: application/json
+
+{
+  "task" : "tarea MODIFICADA",
+  "complete"  : 1 
+}
+
+###
+
+DELETE  http://localhost:3000/api/tasks/7
