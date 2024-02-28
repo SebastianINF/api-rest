@@ -2,26 +2,26 @@
 GET http://localhost:3000/api/tasks
 
 ### 
-GET http://localhost:3000/api/tasks/5
+GET http://localhost:3000/api/tasks/12
 
 ###
 POST http://localhost:3000/api/tasks
 content-type: application/json
 
 {
-  "task" : "matar",
-  "complete" : 0
+  "task" : "hola mudno",
+  "complete" : true
 }
 
 ###
-PUT http://localhost:3000/api/tasks/9
+PUT http://localhost:3000/api/tasks/17
 Content-Type: application/json
 
 {
-  "task" : "tarea MODIFICADA",
-  "complete"  : 1 
+  "task" : "update",
+  "complete"  : true
 }
 
 ###
 
-DELETE  http://localhost:3000/api/tasks/7
+DELETE  http://localhost:3000/api/tasks/14
